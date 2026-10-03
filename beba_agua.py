@@ -10,6 +10,7 @@ while True:
     print("3. Sair")
     opcao = input("Escolha uma opção: ")
 
+    #ao escolher a opção 1, o programa solicita a quantidade de lembretes e inicia um loop para mostrar cada lembrete.
     if opcao == "1":
         quantidade = int(input("Quantos lembretes deseja receber? "))
         numero_lembrete = 1
@@ -22,10 +23,14 @@ while True:
             numero_lembrete += 1
 
         print("Fim dos lembretes.")
+        
+    #ao escolher a opção 2, o programa solicita a quantidade de copos consumidos e atualiza o total.
     elif opcao == "2":
         copos = int(input("Quantos copos você bebeu? "))
         copos_consumidos += copos
         print(f"Total registrado: {copos_consumidos} copo(s).")
+
+    #ao escolher a opção 3, o programa termina com o break e uma mensagem de despedida.
     elif opcao == "3":
         print("Até a próxima. Cuide da sua hidratação!")
         break
