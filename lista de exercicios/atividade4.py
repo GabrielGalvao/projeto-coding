@@ -32,7 +32,7 @@ if acesso_liberado:
 	else:
 		quantidade_bombas = 5
 
-	# Cada bomba fica guardada em uma variável, sem usar uma lista.
+	# Cada bomba fica guardada em uma variável.
 	bomba1 = -1
 	bomba2 = -1
 	bomba3 = -1
