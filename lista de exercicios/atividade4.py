@@ -33,11 +33,11 @@ if acesso_liberado:
 		quantidade_bombas = 5
 
 	# Cada bomba fica guardada em uma variável.
-	bomba1 = -1
-	bomba2 = -1
-	bomba3 = -1
-	bomba4 = -1
-	bomba5 = -1
+	bomba1 = 0
+	bomba2 = 0
+	bomba3 = 0
+	bomba4 = 0
+	bomba5 = 0
 	bombas_cadastradas = 0
 
 	# Pedimos posições válidas e não aceitamos uma posição repetida.
